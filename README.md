@@ -14,9 +14,8 @@ IMDB Movie and Actor data is readily available as text files at .  My goal was t
 	- Create a container from the image
 		- docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=1LoveProgramming -p 1433:1433 -d microsoft/mssql-server-linux:2017-CU4
 
-Feel free to replace the asterix with your password.  Consider using the Kitematic tool (google it) to manage your container. 
+	- Feel free to replace the asterix with your password.  Consider using the Kitematic tool (google it) to manage your container. 
 
-Using your tool of choice, create an IMDB database in your SQL Server (i.e. CREATE DATABASE IMDB)
 3. cd into the DataAccess Directory
 	- Create a Database named IMDB in your SQL Server Instance. Using your favorite tool, just type CREATE DATABASE IMDB 
 	- Create the required Tables/Relationsips in Database by typing:
