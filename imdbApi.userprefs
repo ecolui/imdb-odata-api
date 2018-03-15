@@ -1,5 +1,9 @@
 ﻿<Properties StartupConfiguration="{11110792-B61E-4BDF-AFCA-2359F9915D02}|Default">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DataMigration/Program.fs">
+    <Files>
+      <File FileName="DataMigration/Program.fs" Line="37" Column="6" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

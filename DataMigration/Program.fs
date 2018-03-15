@@ -32,6 +32,6 @@ let main argv =
     printfn "Seeding Principal"
     seedPrincipals()
 
-    printfn "all done seeding the db!"
+    printfn "Successfully seeded the db!"
 
     0
