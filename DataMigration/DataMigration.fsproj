@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="fsc.props" />
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="fsc.props" />
+    <Compile Include="Download.fs" />
+    <Compile Include="Providers.fs" />
+    <Compile Include="Seed.fs" />
+    <Compile Include="Program.fs" />
+    <ProjectReference Include="..\DataAccess\DataAccess.csproj" />
+    <PackageReference Include="FSharp.Data" Version="2.4.5" />
+    <None Include="appsettings.json" />
+  </ItemGroup>
+</Project>

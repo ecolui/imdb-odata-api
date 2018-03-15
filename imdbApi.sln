@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{F0811A14-AB03-45A3-96D0-639220A42273}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "imdbOdataWebApi", "imdbOdataWebApi\imdbOdataWebApi.csproj", "{11110792-B61E-4BDF-AFCA-2359F9915D02}"
+EndProject
+Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "DataMigration", "DataMigration\DataMigration.fsproj", "{9E5D3DAA-CC88-47D7-9ED1-EE022C91A5BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0811A14-AB03-45A3-96D0-639220A42273}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F0811A14-AB03-45A3-96D0-639220A42273}.Debug|x86.Build.0 = Debug|Any CPU
+		{F0811A14-AB03-45A3-96D0-639220A42273}.Release|x86.ActiveCfg = Release|Any CPU
+		{F0811A14-AB03-45A3-96D0-639220A42273}.Release|x86.Build.0 = Release|Any CPU
+		{11110792-B61E-4BDF-AFCA-2359F9915D02}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{11110792-B61E-4BDF-AFCA-2359F9915D02}.Debug|x86.Build.0 = Debug|Any CPU
+		{11110792-B61E-4BDF-AFCA-2359F9915D02}.Release|x86.ActiveCfg = Release|Any CPU
+		{11110792-B61E-4BDF-AFCA-2359F9915D02}.Release|x86.Build.0 = Release|Any CPU
+		{9E5D3DAA-CC88-47D7-9ED1-EE022C91A5BC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9E5D3DAA-CC88-47D7-9ED1-EE022C91A5BC}.Debug|x86.Build.0 = Debug|Any CPU
+		{9E5D3DAA-CC88-47D7-9ED1-EE022C91A5BC}.Release|x86.ActiveCfg = Release|Any CPU
+		{9E5D3DAA-CC88-47D7-9ED1-EE022C91A5BC}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

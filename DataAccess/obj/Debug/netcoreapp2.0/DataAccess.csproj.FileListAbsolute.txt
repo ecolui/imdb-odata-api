@@ -1,0 +1,11 @@
+/Users/lelafrancis/Documents/LuisPractice/DoubleTheDonation/vsImdbApi/imdbApi/DataAccess/bin/Debug/netcoreapp2.0/DataAccess.deps.json
+/Users/lelafrancis/Documents/LuisPractice/DoubleTheDonation/vsImdbApi/imdbApi/DataAccess/bin/Debug/netcoreapp2.0/DataAccess.runtimeconfig.json
+/Users/lelafrancis/Documents/LuisPractice/DoubleTheDonation/vsImdbApi/imdbApi/DataAccess/bin/Debug/netcoreapp2.0/DataAccess.runtimeconfig.dev.json
+/Users/lelafrancis/Documents/LuisPractice/DoubleTheDonation/vsImdbApi/imdbApi/DataAccess/bin/Debug/netcoreapp2.0/DataAccess.dll
+/Users/lelafrancis/Documents/LuisPractice/DoubleTheDonation/vsImdbApi/imdbApi/DataAccess/bin/Debug/netcoreapp2.0/DataAccess.pdb
+/Users/lelafrancis/Documents/LuisPractice/DoubleTheDonation/vsImdbApi/imdbApi/DataAccess/obj/Debug/netcoreapp2.0/DataAccess.csproj.CoreCompileInputs.cache
+/Users/lelafrancis/Documents/LuisPractice/DoubleTheDonation/vsImdbApi/imdbApi/DataAccess/obj/Debug/netcoreapp2.0/DataAccess.AssemblyInfoInputs.cache
+/Users/lelafrancis/Documents/LuisPractice/DoubleTheDonation/vsImdbApi/imdbApi/DataAccess/obj/Debug/netcoreapp2.0/DataAccess.AssemblyInfo.cs
+/Users/lelafrancis/Documents/LuisPractice/DoubleTheDonation/vsImdbApi/imdbApi/DataAccess/obj/Debug/netcoreapp2.0/DataAccess.dll
+/Users/lelafrancis/Documents/LuisPractice/DoubleTheDonation/vsImdbApi/imdbApi/DataAccess/obj/Debug/netcoreapp2.0/DataAccess.pdb
+/Users/lelafrancis/Documents/LuisPractice/DoubleTheDonation/vsImdbApi/imdbApi/DataAccess/obj/Debug/netcoreapp2.0/DataAccess.csprojResolveAssemblyReference.cache
