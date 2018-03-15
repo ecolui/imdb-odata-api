@@ -7,24 +7,24 @@ IMDB Movie and Actor data is readily available as text files at .  My goal was t
 ## How to run this
 1. You need .net core 2.0 (later, I may package more neatly via Docker)
 2. Set up an SQL Server DB on your local machine
-o	You can get it from docker
-•	Install Docker
-•	Download an SQL Server Docker Image
-sudo docker pull microsoft/mssql-server-linux:2017-latest
-•	Create a container from the image
-docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=1LoveProgramming -p 1433:1433 -d microsoft/mssql-server-linux:2017-CU4
+	- You can get it from docker
+	- Install Docker
+	- Download an SQL Server Docker Image
+		- sudo docker pull microsoft/mssql-server-linux:2017-latest
+	- Create a container from the image
+		- docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=1LoveProgramming -p 1433:1433 -d microsoft/mssql-server-linux:2017-CU4
 
 Feel free to replace the asterix with your password.  Consider using the Kitematic tool (google it) to manage your container. 
 
 Using your tool of choice, create an IMDB database in your SQL Server (i.e. CREATE DATABASE IMDB)
 3. cd into the DataAccess Directory
-o	Create a Database named IMDB in your SQL Server Instance. Using your favorite tool, just type CREATE DATABASE IMDB 
-o	Create the required Tables/Relationsips in Database by typing:
+* Create a Database named IMDB in your SQL Server Instance. Using your favorite tool, just type CREATE DATABASE IMDB 
+* Create the required Tables/Relationsips in Database by typing:
 dotnet ef database update
 (Note: The Initial Data Migration has already been included in the file, so you don’t have to include the ‘Add Migration…’ command.  Also not, if you get an error, you probably don’t have the correct .net core cli tools available)
 4. In the project, change the contents of all access.json files to reflect the data (e.g. user/password) of your sql server database
 5. Set imdbOdataWebApi as your startup project
-o	Build and run using a tool like Visual Studio for Mac
+* Build and run using a tool like Visual Studio for Mac
 
 6. Open a tool like Google PostMan, and start issuing http request to your endpoints. Sample OData queries proceed:
 
