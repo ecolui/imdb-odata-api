@@ -1,10 +1,10 @@
-##Goal – Create OData Enpoints for IMDB Data
+## Goal – Create OData Enpoints for IMDB Data
 IMDB Movie and Actor data is readily available as text files at .  My goal was to build an OData web api on a Mac (not windows) only using .net core (2.0.)  I ended up using Entity Framework (Code First) to build the database.  I needed an IQueryable model for the OData Endpoints, and when I built the project, type providers for F# (eg. SQL Provider) were still under construction.   I did, however, manage to use a CSV provider to parse the text files.  I used F# to seed the database.    So, in a nutshell, there are three projects in this repor
 1. Data Access – Creates Entity Framework entities
 2. Data Migration – downloads csv files from the IMDB site and uploads the data to an sql server database.  For this project, I ended up using an sql-server docker container that ran locally on my mac.
 3. IMDB OData Web API – the api that contains the OData Endpoints
  
-##How to run this
+## How to run this
 1. You need .net core 2.0 (later, I may package more neatly via Docker)
 2. Set up an SQL Server DB on your local machine
 o	You can get it from docker
